@@ -75,7 +75,7 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
   .next-gen {
       display: flex;
       height: auto;
-      margin-left: 80px;
+      padding-left: 80px;
   }
   .next-gen-intro {
       display: flex;
@@ -223,4 +223,79 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
   .footer-2 li a:hover,
   .footer-3 li a:hover {
      color: var(--limegreen);
+  }
+  .contact-links li:hover {
+    filter: invert(77%) sepia(38%) saturate(1018%) hue-rotate(73deg) brightness(93%) contrast(76%);
+
+  }
+  .copyright {
+      padding-right: 5px;
+  }
+
+  @media(max-width: 396px) {
+.next-gen {
+    flex-direction: column-reverse;
+}
+.nextgen-img {
+    left: 0%;
+    
+}
+.nextgen-img img {
+    max-width: 100%;
+    height: 20em;
+    justify-content: center;
+}
+.next-gen-intro p:nth-child(1){
+    font-size: 2.0em;
+    text-align: center;
+}
+.next-gen-intro p:nth-child(2){
+    font-size: 0.8em;
+    text-align: center;
+}
+.next-gen-intro p br:nth-child(1){
+    display: none;
+}
+.next-gen-intro p br:nth-child(2){
+    display: none;
+}
+.next-gen-intro a {
+    position: relative;
+    left: 20%;
+}
+.choices {
+    top: 38em;
+}
+.benefits {
+    grid-template-columns: 100%;
+}
+.benefits div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 25%;
+}
+/* .benefits-r {
+    font-size: 2.5em;
+}
+.benefits-r span::after {
+content: ' ';
+display: block;
+} */
+
+.updates {
+    top: 105em;
+}
+.articles {
+    flex-direction: column;
+}
+.articles div img {
+    padding-top: 30px;
+}
+.footer {
+    top: 105em;
+}
   }
