@@ -265,6 +265,8 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
 }
 .choices {
     top: 38em;
+    padding-left: 60px;
+    padding-right: 40px;
 }
 .benefits {
     grid-template-columns: 100%;
@@ -276,18 +278,25 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
     align-items: center;
     text-align: center;
     position: relative;
-    left: 25%;
+    left: 35%;
 }
-/* .benefits-r {
-    font-size: 2.5em;
+.benefits-r {
+    font-size: 2em;
+    text-align: left;
+    padding-right: 30px;
 }
-.benefits-r span::after {
+.choices p {
+    text-align: center;
+}
+/* .benefits-r span::after {
 content: ' ';
 display: block;
 } */
 
 .updates {
-    top: 105em;
+    top: 115em;
+    padding-left: 60px;
+    padding-right: 10px;
 }
 .articles {
     flex-direction: column;
@@ -296,6 +305,6 @@ display: block;
     padding-top: 30px;
 }
 .footer {
-    top: 105em;
+    top: 115em;
 }
   }
