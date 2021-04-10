@@ -101,7 +101,7 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
   .nextgen-img {
     height: auto;
     position: relative;
-    left: 24%;
+    left: 10%;
 
   }
   .nextgen-img img {
@@ -306,5 +306,31 @@ display: block;
 }
 .footer {
     top: 115em;
+    flex-direction: column;
 }
+.contact-links li {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-2 li,
+  .footer-3 li {
+      font-size: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+      color: var(--verylightgray);
+  }
+  .footer-4 li a{
+      padding: 10px 15px;
+    position: relative;
+    top: 2em;
+  }
+  .footer-4 li p{
+    padding-top: 80px;
+    color: var(--grayishblue);
+    font-size: 15px;
+}
+
+
   }
