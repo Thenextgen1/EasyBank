@@ -244,15 +244,12 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
       padding-right: 5px;
   }
 
-  /* .nav-item {
-    text-align: center;
-    padding-top: 15px;
-   
-   
-} */
   @media(max-width: 396px) {
     body {
         overflow-x: hidden;
+    }
+    header {
+        position: relative;
     }
     .toogle {
         visibility: visible;
@@ -277,9 +274,9 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
         width: 15em;
         height: auto;
         padding: 0px 5px 20px 12px;
-        box-shadow: 13px 13px 5px -5px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 13px 13px 5px -5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 13px 13px 5px -5px rgba(0,0,0,0.75);
+        box-shadow: 0px 7px 17px 3px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px 7px 17px 3px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 7px 17px 3px rgba(0,0,0,0.75);
         
     }
    
@@ -326,6 +323,7 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
 }
 .benefits {
     grid-template-columns: 100%;
+    width: 100%;;
 }
 .benefits div {
     display: flex;
@@ -335,6 +333,9 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
     text-align: center;
     position: relative;
     left: 35%;
+}
+.benefits div p {
+    text-align: center;
 }
 .benefits-r {
     font-size: 2em;
@@ -384,7 +385,10 @@ display: block;
       padding-bottom: 20px;
       text-align: center;
       color: var(--verylightgray);
+      position: relative;
+      right: 10%;
   }
+
   .footer-4 li a{
       padding: 10px 15px;
     position: relative;
