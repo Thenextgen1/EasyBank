@@ -121,7 +121,7 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
   .nextgen-img img {
       height: 35em;
    position: relative;
-   left: 15%;
+   left: 25%;
   }
   .choices {
       position: absolute;
