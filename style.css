@@ -360,7 +360,7 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
     text-align: left;
 }
 .updates {
-    top: 115em;
+    top: 145em;
     padding-left: 60px;
     padding-right: 10px;
 }
@@ -371,7 +371,7 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
     padding-top: 30px;
 }
 .footer {
-    top: 115em;
+    top: 145em;
     flex-direction: column;
 }
 .contact-links {
