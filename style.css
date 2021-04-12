@@ -96,8 +96,8 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
       position: relative;
   }
   .next-gen-intro a {
-      width: fit-content;
       margin-top: 2em;
+     width: 12em;
   }
   .next-gen-intro p:nth-child(1) {
       font-size: 2.5em;
