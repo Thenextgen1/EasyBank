@@ -88,6 +88,7 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
       display: flex;
       height: auto;
       padding-left: 80px;
+      justify-content: space-between
   }
   .next-gen-intro {
       display: flex;
@@ -96,8 +97,8 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
       position: relative;
   }
   .next-gen-intro a {
+      width: 12em;
       margin-top: 2em;
-     width: 12em;
   }
   .next-gen-intro p:nth-child(1) {
       font-size: 2.5em;
@@ -429,7 +430,7 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
     }
     header .nav1 {
         padding-left: 15px;
-        padding-right: 70px;
+        padding-right: 80px;
     }
     .navlist li {
         display: none;
