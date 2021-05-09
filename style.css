@@ -644,18 +644,24 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
     .initial-b {
         display: none;
     }
-    
+    .next-gen-intro p {
+        padding-left: 30px;
+    }
+    .request {
+        margin-left: 10em;
+        margin-bottom: 2em;
+    }
     .benefits {
         grid-template-columns: 100%;
     }
     .choices {
-        top: 60em;
+        top: 65em;
     }
     .updates {
-        top: 80em;
+        top: 85em;
     }
     .footer {
-        top: 80em;
+        top: 85em;
     }
     .articles {
         flex-direction: column;
@@ -668,5 +674,52 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
    .articles div {
         padding-bottom: 3em;
     }
+ }
+ @media(min-width: 790px) and (max-width: 800px) {
+   .articles div {
+        padding-bottom: 3em;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .contact-links {
+        position: relative;
+        left: 25%;
+    }
+    .contact-links li {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-1 .logo2 {
+        position: relative;
+        left: 25%;
+    }
+    .footer-2 li,
+    .footer-3 li {
+          font-size: 20px;
+          padding-bottom: 20px;
+          text-align: center;
+          color: var(--verylightgray);
+          position: relative;
+          right: 10%;
+      }
+    
+      .footer-4 li a{
+          padding: 10px 15px;
+        position: relative;
+        top: 2em;
+      }
+      .footer-4 .btn4 {
+          position: relative;
+          left: 5%;
+      }
+      .footer-4 li p{
+        padding-top: 80px;
+        color: var(--grayishblue);
+        font-size: 15px;
+        padding-left: 150px;
+        }
  }
 
