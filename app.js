@@ -2,7 +2,7 @@ const toogle = document.querySelector('.toogle');
 const navList = document.querySelectorAll('.navlist li');
 const navli = document.querySelector('.navlist');
 const exit = document.querySelector('.backend');
-const mediaQuery = window.matchMedia('(max-width: 576px)');
+const mediaQuery = window.matchMedia('(max-width: 676px)');
 
 
 function touch() {
