@@ -661,7 +661,7 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
         position: relative;
     }
     .choices {
-        top: 50em;
+        top: 60em;
     }
     .benefits {
         display: grid;
