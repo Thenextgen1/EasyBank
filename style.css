@@ -668,16 +668,5 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
    .articles div {
         padding-bottom: 3em;
     }
-    .footer {
-        top: 50em;
-    }
  }
-@media(min-width: 790px) and (max-width: 801px) {
-    
-    .updates {
-        top: 60em;
-    }
-    .footer {
-        top: 55em;
-    }
-}
+
