@@ -586,6 +586,9 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
   }
   @media(min-width: 530px) and (max-width: 676px) {
 
+    header.nav1 {
+        padding-right: 0px;
+    }
 .benefits div {
     display: flex;
     flex-direction: column;
@@ -635,6 +638,10 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
         top: 6em;
         position: relative;
     }
+    header.nav1 {
+        padding-right: 0px;
+    }
+    
     .benefits {
         grid-template-columns: 100%;
     }
@@ -671,7 +678,7 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
         
     }
     .updates {
-        top: 50em;
+        top: 55em;
     }
     .articles {
         display: grid;
@@ -681,6 +688,29 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
         padding-bottom: 3em;
     }
     .footer {
-        top: 45em;
+        top: 50em;
+    }
+}
+@media(min-width: 790px) and (max-width: 801px) {
+    .backend {
+        display: none;
+    }
+    header.nav1 {
+        padding-right: 0px;
+        padding-left: 0px !important;
+        justify-content: center;
+    }
+    .initial-b {
+        padding: 5px 10px;
+    }
+    .navlist li {
+        display: inline-block;
+       
+    }
+    .updates {
+        top: 60em;
+    }
+    .footer {
+        top: 55em;
     }
 }
