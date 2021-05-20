@@ -644,6 +644,15 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
     .initial-b {
         display: none;
     }
+    .nextgen-img img{
+        width: 20em;
+        height: 20em;
+    }
+    .nextgen-img {
+        background-image: url(images/bg-intro-mobile.svg);
+        background-position: 90px 40px;
+        background-size: auto;
+    }
     .next-gen-intro p {
         padding-left: 30px;
     }
