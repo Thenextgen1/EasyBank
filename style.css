@@ -9,7 +9,6 @@
     --white: hsl(0, 0%, 100%);
     
 }
-
 html {
     box-sizing: border-box;
   }
@@ -20,7 +19,6 @@ html {
       margin: 0;
       padding: 0;
   }
-
   body {
     font-family: 'Public Sans', sans-serif;
     font-size: 18px;
@@ -295,7 +293,6 @@ background: linear-gradient(90deg, rgba(49,211,92,1) 55%, rgba(43,183,218,1) 89%
     position: absolute;
     top: 1em;
 }
-  
 .nextgen-img {
     left: 0%;
     height: auto;
